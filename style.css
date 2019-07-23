@@ -608,7 +608,6 @@ img {
     position: absolute;
     bottom: -30px;
     left: 6vw;
-    min-width: 400px;
     max-height: 120%;
     z-index: 9;
 }
