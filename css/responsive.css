@@ -129,6 +129,7 @@
     }
     .hero-slide-content h4 {
         font-size: 18px;
+        max-width: 98vw;
     }
     .welcome_area,
     .single-hero-slide {
@@ -154,7 +155,7 @@
         margin: 15px;
     }
     .features-img > img {
-        width: 100%;
+        min-width: 100%;
         position: relative;
         bottom: -30px;
         left: 0;
