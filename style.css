@@ -422,6 +422,9 @@ img {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
+.navbar-brand > img {
+    margin-top: 10px;
+}
 
 /* Search Form CSS */
 
