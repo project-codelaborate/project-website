@@ -20,6 +20,9 @@
     <!-- Font Awesome Script-->
     <script src="https://kit.fontawesome.com/034893c064.js"></script>
 
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
 </head>
 
 <style>
@@ -63,60 +66,21 @@
         margin: auto;
         width: 40%;
     }
-
-    .mosh-btn {
-        background-color: #4a7aec;
-        min-width: 150px;
-        height: 500px;
-        padding: 0 30px;
-        border-radius: 70px;
-        color: #fff;
-        font-size: 14px;
-        line-height: 54px;
-        font-weight: 700;
-        text-transform: uppercase;
-        -webkit-transition-duration: 500ms;
-        transition-duration: 500ms;
-    }
-
-    .mosh-btn.mosh-btn-2 {
-        border: 2px solid #4a7aec;
-        color: #404551;
-        background-color: #fff;
-    }
-
-    .mosh-btn:hover {
-        background-color: #1a3c8d;
-        color: #fff;
-    }
-
-    .mosh-btn.mosh-btn-2 {
-        border: 2px solid #4a7aec;
-        color: #404551;
-        background-color: #fff;
-    }
-
-    .mosh-btn.mosh-btn-2:hover,
-    .mosh-btn.mosh-btn-2:focus {
-        border: 2px solid #4a7aec;
-        color: #fff;
-        background-color: #4a7aec;
-    }
 </style>
 <body>
 
 <div class="bgimg">
-    <div class="topleft" >
+    <div class="topleft">
         <a href="index.html"> <img src="img/core-img/logo.png" alt=""></a>
     </div>
     <div class="middle">
-        <h1>COMING SOON</h1>
+        <span style="font-family:Courier New, Courier, monospace; font-size: 50px;"> COMING SOON</span></h1>
         <hr>
-        <p id="demo" style="font-size:30px"></p>
+        <p id="demo" style="font-family:Courier New, Courier, monospace; font-size: 30px; color: white"></p>
     </div>
     <div class="bottomleft">
-        <div class="mosh-buttons-area mb-100" >
-            <a href="#"  class="btn mosh-btn mosh-btn-2"onclick="goBack()">Return</a>
+        <div class="mosh-buttons-area mb-100" style="position:relative; top: 80px">
+                <a href="#" class="btn mosh-btn mosh-btn-2" onclick="goBack()"><span style="font-size: 20px;">Return</span></a>
         </div>
     </div>
 </div>
