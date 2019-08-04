@@ -1726,6 +1726,21 @@ span.accor-open {
     color: #292d4f;
 }
 
+#pop-up-box {
+    border-radius: 25px;
+    border: 2px solid #4a7aec;
+    padding: 5px;
+    width: 150px;
+
+    display: none;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+#pop:hover #pop-up-box {
+    display: block;
+}
+
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
