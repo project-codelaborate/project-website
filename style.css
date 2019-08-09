@@ -748,7 +748,7 @@ img {
     z-index: 9;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* 74, 122, 236, 0.85 */
+    background-color: rgba(0, 0, 0, 0.8); /* 74, 122, 236, 0.85 */
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition-duration: 500ms;
