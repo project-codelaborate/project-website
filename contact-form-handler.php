@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 
-$email_from = 'samratsahoo2013@gmail.com';
+$email_from = 'contactpage@projectcodelaborate.org';
 
 $email_subject = "New Form Submission";
 
