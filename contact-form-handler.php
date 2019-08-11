@@ -10,6 +10,7 @@ $email_subject = "New Form Submission";
 
 $email_body = "User Name: $name.\n".
     "User Email: $visitor_email.\n".
+    "User Subject: $email_subject.\n".
     "User Message: $message.\n";
 
 
