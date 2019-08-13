@@ -1007,6 +1007,13 @@ span.accor-open {
     height: 60px;
 }
 
+.contact-footer{
+    color: darkgrey;
+}
+.contact-footer:hover{
+    color: #4a7aec;
+}
+
 /* --------------------
 :: 13.0 Breadcumb CSS
 -------------------- */
