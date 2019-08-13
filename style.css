@@ -1733,7 +1733,7 @@ span.accor-open {
     color: #292d4f;
 }
 
-#pop-up-box {
+.pop-up-box-founder {
     border-radius: 25px;
     border: 2px solid #4a7aec;
     padding: 5px;
@@ -1744,7 +1744,46 @@ span.accor-open {
     margin-top: 0px;
 }
 
-#pop:hover #pop-up-box {
+.pop-founder:hover .pop-up-box-founder {
+    position: absolute;
+    top: 85px;
+    right: 1px;
+    display: block;
+}
+
+.pop-up-box-team {
+    border-radius: 25px;
+    border: 2px solid #4a7aec;
+    padding: 5px;
+    width: 160px;
+
+    display: none;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.pop-team:hover .pop-up-box-team {
+    position: absolute;
+    top: 392px;
+    right: 100px;
+    display: block;
+}
+
+.pop-up-box-affiliates {
+    border-radius: 25px;
+    border: 2px solid #4a7aec;
+    padding: 5px;
+    width: 160px;
+
+    display: none;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.pop-affiliates:hover .pop-up-box-affiliates {
+    position: absolute;
+    top: 335px;
+    right: 158px;
     display: block;
 }
 
