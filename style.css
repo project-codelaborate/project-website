@@ -1787,6 +1787,18 @@ span.accor-open {
     display: block;
 }
 
+.resource-click{
+    color: black;
+}
+.resource-click:hover{
+    color: #4a7aec;
+}
+.resource-suggestion{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
