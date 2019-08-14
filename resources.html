@@ -65,7 +65,20 @@
                                     </div>
                                 </li-->
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                                    <div class="dropdown-menu" aria-labelledby="moshDropdown">
+                                        <a class="dropdown-item" href="resources.html">Resources</a>
+                                        <a class="dropdown-item" href="java-course.html">Java Course</a>
+                                        <a class="dropdown-item" href="extended-java-course.html">Extended Java Course</a>
+                                        <a class="dropdown-item" href="coding-challenges.html">Coding Challenges</a>
+                                        <a class="dropdown-item" href="python-course.html">Python Course</a>
+                                        <a class="dropdown-item" href="extended-python-course.html">Extended Python Course</a>
+                                        <a class="dropdown-item" href="online-hackathons.html">Online Hackathons</a>
+                                        <a class="dropdown-item" href="community-forums.html">Community Forums</a>
+                                        <a class="dropdown-item" href="https://discord.gg/FDRBbbq">Discord Server</a>
+                                        <a class="dropdown-item" href="coding-sandbox.html">Coding Sandbox</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="affiliates.html">Community Affiliates</a>
                                 </li>
@@ -130,7 +143,7 @@
                         <img src="img/core-img/trophy.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Java Course</h4>
+                        <h4><a href="java-course.html" class="resource-click"> Java Course</a></h4>
                         <p>A course for first time programmers wanting to delve into the world of computer science and learn Java.</p>
                     </div>
                 </div>
@@ -142,7 +155,7 @@
                         <img src="img/core-img/edit.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Extended Java Course</h4>
+                        <h4><a href="extended-java-course.html" class="resource-click">Extended Java Course</a></h4>
                         <p>This is an extension of the Java Course and is geared toward intermediate and advanced programmers.</p>
                     </div>
                 </div>
@@ -154,7 +167,7 @@
                         <img src="img/core-img/video-camera.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Coding Challenges</h4>
+                        <h4><a href="coding-challenges.html" class="resource-click">Coding Challenges</a></h4>
                         <p>Work on coding problems to sharpen your skills! Compete with others on the leader board.</p>
                     </div>
                 </div>
@@ -166,7 +179,7 @@
                         <img src="img/core-img/presentation.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Python Course</h4>
+                        <h4><a href="python-course.html" class="resource-click">Python Course</a></h4>
                         <p>A course for first time programmers wanting to delve into the world of computer science and learn Python.</p>
                     </div>
                 </div>
@@ -178,7 +191,7 @@
                         <img src="img/core-img/gamepad.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Extended Python Course</h4>
+                        <h4><a href="extended-python-course.html" class="resource-click">Extended Python Course</a></h4>
                         <p>This is an extension of the Python Course and is geared toward intermediate and advanced programmers.</p>
                     </div>
                 </div>
@@ -190,7 +203,7 @@
                         <img src="img/core-img/atomic.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Online Hackathons</h4>
+                        <h4><a href="online-hackathons.html" class="resource-click">Online Hackathons</a></h4>
                         <p>Compete with other members of the community!</p>
                     </div>
                 </div>
@@ -202,7 +215,7 @@
                         <img src="img/core-img/safebox.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Community Forums</h4>
+                        <h4><a href="community-forums.html" class="resource-click">Community Forums</a></h4>
                         <p>Feel free to ask any question! We have people who can help.</p>
                     </div>
                 </div>
@@ -214,7 +227,7 @@
                         <img src="img/core-img/settings-2.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Discord Server</h4>
+                        <h4><a href="https://discord.gg/FDRBbbq" class="resource-click">Discord Server</h4>
                         <p>Join our discord server to interact with us and other members of the community.</p>
                     </div>
                 </div>
@@ -226,19 +239,19 @@
                         <img src="img/core-img/alarm-clock.png" alt="">
                     </div>
                     <div class="feature-content">
-                        <h4>Coding Sandbox</h4>
+                        <h4><a href="coding-sandbox.html" class="resource-click">Coding Sandbox</a></h4>
                         <p>Code to your heart's extent!</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div style="text-align:center;position: relative; bottom: 40px; color: black;"><p><b>Have Suggestions? Let Us Know!</b></p>
+        <div class="resource-suggestion"><p><b>Have Suggestions? Let Us Know!</b></p>
         </div>
 
         <div class="row">
             <div class="col-12 text-center">
-                <a href="contact.html" style="position: relative; bottom: 40px;" class="btn mosh-btn">Contact Us!</a>
+                <a href="contact.html" style="position: relative; bottom: 30px;" class="btn mosh-btn">Contact Us!</a>
             </div>
         </div>
     </div>
@@ -560,7 +573,7 @@
                         <div class="copyright-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                                All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                All rights reserved | Supported by <i class="fa fa-heart-o"
                                                                                     aria-hidden="true"></i> by <a
                                         href="https://colorlib.com" target="_blank">Colorlib</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
