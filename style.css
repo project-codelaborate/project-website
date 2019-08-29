@@ -1801,14 +1801,17 @@ span.accor-open {
 /*=========Dashboard CSS=========*/
 
 .dashboard-topic-list{
-        border-radius: 25px;
+        border-radius: 10px;
         clear:left;
         overflow: auto !important;
         border: 3px solid #007bff;
         padding: 20px; 
         margin: auto;
-        width: 80%;        
-}
+        margin-top: 25px;
+        margin-bottom: 20px;
+        width: 70%;  
+        background-image: linear-gradient(#f0edff,#ffffff);
+    }
 
 /* --------------------------------
 ============= The End =============
