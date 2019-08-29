@@ -1802,13 +1802,12 @@ span.accor-open {
 
 .dashboard-topic-list{
         border-radius: 25px;
+        clear:left;
+        overflow: auto !important;
         border: 3px solid #007bff;
         padding: 20px; 
         margin: auto;
         width: 80%;        
-        height: 400px;
-
-        
 }
 
 /* --------------------------------
