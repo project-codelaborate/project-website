@@ -1799,13 +1799,17 @@ span.accor-open {
     text-align: center;
 }
 /*=========Dashboard CSS=========*/
-
+.dashboard-spacing{
+    height: 30px;
+    width: 100%;
+    opacity: 0%;
+}
 .dashboard-topic-list{
         border-radius: 10px;
         clear:left;
         overflow: auto !important;
         border: 3px solid #007bff;
-        padding: 20px; 
+        padding: 25px; 
         margin: auto;
         margin-top: 25px;
         margin-bottom: 20px;
