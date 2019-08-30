@@ -1804,6 +1804,14 @@ span.accor-open {
     width: 100%;
     opacity: 0%;
 }
+
+.dashboard-content{
+        color: darkgray;
+}
+
+.dashboard-content:hover{
+    color: #007bff;
+}
 .dashboard-topic-list{
         border-radius: 10px;
         clear:left;
