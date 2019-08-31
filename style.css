@@ -1826,15 +1826,17 @@ span.accor-open {
         background-image: linear-gradient(#f0edff,#ffffff);
     }
 .dashboard-unit-list{
-    border-radius: 10px;
-    overflow: auto !important;
-    border: 3px solid #007bff;
-    padding: 25px; 
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    width: 70%;
-    background-image: linear-gradient(#f0edff,#ffffff);
+        border-radius: 10px;
+        overflow: auto !important;
+        border: 3px solid #007bff;
+        padding: 25px; 
+        margin: auto;
+        margin-right: 25px;
+        width: 20%;
+        background-image: linear-gradient(#f0edff,#ffffff);
+        position: relative;
+        right: 76%;
+        top: 36mm;
 }
 /* --------------------------------
 ============= The End =============
