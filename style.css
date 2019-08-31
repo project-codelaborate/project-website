@@ -1815,28 +1815,27 @@ span.accor-open {
 .dashboard-topic-list{
         border-radius: 10px;
         position: relative;
-        left: 10%;
         overflow: auto !important;
         border: 3px solid #007bff;
         padding: 25px; 
         margin: auto;
         margin-top: 25px;
         margin-bottom: 20px;
-        width: 70%;
-        background-image: linear-gradient(#f0edff,#ffffff);
-    }
+        width: 60%;
+        background-image: linear-gradient(#f0edff,#ffffff);}
+        
 .dashboard-unit-list{
         border-radius: 10px;
         overflow: auto !important;
         border: 3px solid #007bff;
         padding: 25px; 
         margin: auto;
-        margin-right: 25px;
-        width: 20%;
+        width: 15%;
         background-image: linear-gradient(#f0edff,#ffffff);
+        float: left;
         position: relative;
-        right: 76%;
-        top: 36mm;
+        top: 25px;
+        left: 30px;
 }
 /* --------------------------------
 ============= The End =============
