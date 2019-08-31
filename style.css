@@ -1814,17 +1814,28 @@ span.accor-open {
 }
 .dashboard-topic-list{
         border-radius: 10px;
-        clear:left;
+        position: relative;
+        left: 10%;
         overflow: auto !important;
         border: 3px solid #007bff;
         padding: 25px; 
         margin: auto;
         margin-top: 25px;
         margin-bottom: 20px;
-        width: 70%;  
+        width: 70%;
         background-image: linear-gradient(#f0edff,#ffffff);
     }
-
+.dashboard-unit-list{
+    border-radius: 10px;
+    overflow: auto !important;
+    border: 3px solid #007bff;
+    padding: 25px; 
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 70%;
+    background-image: linear-gradient(#f0edff,#ffffff);
+}
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
