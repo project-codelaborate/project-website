@@ -35,7 +35,8 @@
       flex-wrap: nowrap;
     }
     .navbar-brand > img {
-      width: 65%; !important
+      width: 65% !important;
+      margin-top: 5px !important;
     }
     .navbar-toggler {
         border: 2px solid #fff;
@@ -122,7 +123,8 @@
       flex-wrap: nowrap
     }
     .navbar-brand > img {
-      width: 65%; !important
+      width: 65% !important;
+      margin-top: 5px !important;
     }
     .header_area {
         padding: 0;
