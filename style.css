@@ -1812,7 +1812,7 @@ span.accor-open {
 .dashboard-content:hover{
     color: #007bff;
 }
-.dashboard-topic-list{
+.dashboard-module{
         border-radius: 10px;
         position: relative;
         overflow: auto !important;
@@ -1821,8 +1821,12 @@ span.accor-open {
         margin: auto;
         margin-top: 25px;
         margin-bottom: 20px;
-        width: 60%;
-        background-image: linear-gradient(#f0edff,#ffffff);}
+        background-image: linear-gradient(#f0edff,#ffffff);
+}
+.dashboard-module > a {
+    display: block;
+}
+
         
 .dashboard-unit-list{
         border-radius: 10px;
