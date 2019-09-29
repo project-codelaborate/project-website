@@ -1822,6 +1822,7 @@ span.accor-open {
         margin-top: 25px;
         margin-bottom: 20px;
         background-image: linear-gradient(#f0edff,#ffffff);
+        width: 90%;
 }
 .dashboard-module > a {
     display: block;
