@@ -1824,10 +1824,18 @@ span.accor-open {
         background-image: linear-gradient(#f0edff,#ffffff);
         width: 90%;
 }
+.dashboard-module-wrapper {
+    columns: 2;
+}
+.dashboard-module > .dashboard-module-wrapper > a {
+    line-height: 2;
+}
+
 .dashboard-module > a {
     display: block;
+    line-height: 1;
 }
-.dashboard-module > a:hover {
+.dashboard-module-wrapper > a:hover {
     color: #007bff !important;
 }
 
