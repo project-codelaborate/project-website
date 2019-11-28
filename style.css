@@ -1853,6 +1853,12 @@ span.accor-open {
         top: 25px;
         left: 30px;
 }
+
+.dashboard-image{
+    border: 3px solid #000000;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
