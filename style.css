@@ -1,5 +1,6 @@
 /* [Master Stylesheet] */
 
+
 /* ------------------------------------------------
 :: Author: Project Codelaborate Developers
 :: Author URI: https://github.com/project-codelaborate
@@ -9,7 +10,6 @@
 ------------------------------------------------ */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
-
 @import 'css/bootstrap.min.css';
 @import 'css/owl.carousel.min.css';
 @import 'css/animate.css';
@@ -285,7 +285,7 @@ img {
     margin-bottom: 100px;
 }
 
-.section-heading > p {
+.section-heading>p {
     font-weight: 700;
     color: #bec0cc;
     font-size: 12px;
@@ -294,13 +294,13 @@ img {
     letter-spacing: 2px;
 }
 
-.section-heading > h2 {
+.section-heading>h2 {
     font-size: 40px;
     margin: 0;
     font-weight: 900;
 }
 
-.section-heading > h5 {
+.section-heading>h5 {
     font-size: 22px;
     color: #abadbe;
     line-height: 1.8;
@@ -354,6 +354,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 /* --------------------------
 :: 2.0 Header Area CSS
@@ -413,7 +414,7 @@ img {
     color: #fff;
 }
 
-.search-button > a {
+.search-button>a {
     margin: 0 80px;
 }
 
@@ -421,9 +422,11 @@ img {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
-.navbar-brand > img {
+
+.navbar-brand>img {
     margin-top: 10px;
 }
+
 
 /* Search Form CSS */
 
@@ -456,6 +459,7 @@ img {
     transition-duration: 500ms;
 }
 
+
 /* Sticky CSS */
 
 .header_area.sticky {
@@ -466,6 +470,7 @@ img {
     top: 0;
     z-index: 999;
 }
+
 
 /* --------------------------
 :: 3.0 Welcome Area CSS
@@ -537,6 +542,7 @@ img {
     background-color: #4a7aec;
 }
 
+
 /* -------------------------
 :: 4.0 Service Area
 ------------------------- */
@@ -586,14 +592,16 @@ img {
     right: -25px;
 }
 
+
 /* -------------------------
 :: 5.0 Clients Area
 ------------------------- */
 
-.clients-logo-area > a > img {
+.clients-logo-area>a>img {
     max-width: 170px;
     height: auto;
 }
+
 
 /* -------------------------
 :: 6.0 Features Area
@@ -605,7 +613,7 @@ img {
     z-index: 1;
 }
 
-.features-img > img {
+.features-img>img {
     max-width: 40%;
     position: absolute;
     bottom: -30px;
@@ -666,6 +674,7 @@ img {
     margin-bottom: 10px;
 }
 
+
 /* -------------------------
 :: 7.0 More Service Area
 ------------------------- */
@@ -686,14 +695,15 @@ img {
     box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
-.more-service-content > img {
+.more-service-content>img {
     margin-bottom: 40px;
 }
 
-.more-service-content > h4 {
+.more-service-content>h4 {
     margin-bottom: 30px;
     text-transform: capitalize;
 }
+
 
 /* -------------------------
 :: 8.0 Portfolio Area
@@ -704,7 +714,7 @@ img {
     margin-top: -10px;
 }
 
-.portfolio-menu > p {
+.portfolio-menu>p {
     display: inline-block;
     padding: 0 15px;
     cursor: pointer;
@@ -713,7 +723,7 @@ img {
     margin-bottom: 0;
 }
 
-.portfolio-menu > p:hover {
+.portfolio-menu>p:hover {
     color: #4a7aec;
 }
 
@@ -726,19 +736,19 @@ img {
     overflow: hidden
 }
 
-.single_gallery_item > img {
+.single_gallery_item>img {
     width: 100%;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
 
-.single_gallery_item:hover > img {
+.single_gallery_item:hover>img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="8" /></filter></svg>#filter');
     -webkit-filter: blur(8px);
     filter: blur(8px);
-    filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=8);
+    filter: progid: DXImageTransform.Microsoft.Blur(pixelradius=8);
 }
 
 .gallery-hover-overlay {
@@ -748,7 +758,8 @@ img {
     z-index: 9;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.8); /* 74, 122, 236, 0.85 */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* 74, 122, 236, 0.85 */
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition-duration: 500ms;
@@ -765,10 +776,11 @@ img {
     margin-bottom: 10px;
 }
 
-.port-hover-text > a {
+.port-hover-text>a {
     color: #fff;
     font-size: 15px;
 }
+
 
 /* -------------------------
 :: 9.0 Workflow Area
@@ -782,7 +794,7 @@ img {
     background-repeat: no-repeat;
 }
 
-.single-workflow-area > h2 {
+.single-workflow-area>h2 {
     font-size: 16px;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 47px;
@@ -830,6 +842,7 @@ img {
     background-color: #4a7aec;
 }
 
+
 /* -------------------------
 :: 10.0 CTA Area
 ------------------------- */
@@ -849,6 +862,7 @@ img {
     color: #fff;
     font-size: 44px;
 }
+
 
 /* -------------------------
 :: 11.0 FAQ Area
@@ -925,6 +939,7 @@ span.accor-open {
     margin-bottom: 10px;
 }
 
+
 /* --------------------------
 :: 12.0 Footer Area CSS
 -------------------------- */
@@ -940,34 +955,34 @@ span.accor-open {
     margin-bottom: 50px;
 }
 
-.single-footer-widget ul > li > a {
+.single-footer-widget ul>li>a {
     color: rgba(226, 219, 243, 0.30);
     margin-bottom: 10px!important;
     display: block;
     font-weight: 500;
 }
 
-.single-footer-widget ul > li > a:last-child {
+.single-footer-widget ul>li>a:last-child {
     margin-bottom: 0;
 }
 
-.single-footer-widget ul > li > a:hover {
+.single-footer-widget ul>li>a:hover {
     color: #ffffff;
 }
 
-.copyright-text > p {
+.copyright-text>p {
     margin-bottom: 0;
     font-size: 13px;
 }
 
-.footer-social-info > a {
+.footer-social-info>a {
     color: #abadbe;
     padding: 0 15px;
     display: inline-block;
     font-size: 13px;
 }
 
-.footer-social-info > a:hover {
+.footer-social-info>a:hover {
     color: #fff;
 }
 
@@ -979,22 +994,22 @@ span.accor-open {
     margin-bottom: 0;
 }
 
-.footer-single--blog-post .blog-post-date > p {
+.footer-single--blog-post .blog-post-date>p {
     font-size: 12px;
     margin-bottom: 5px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
 
-.footer-single--blog-post .blog-post-title > h6 {
+.footer-single--blog-post .blog-post-title>h6 {
     font-size: 14px;
     margin-bottom: 0;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
 
-.footer-single--blog-post .blog-post-date > p:hover,
-.footer-single--blog-post .blog-post-title > h6:hover {
+.footer-single--blog-post .blog-post-date>p:hover,
+.footer-single--blog-post .blog-post-title>h6:hover {
     color: #4a7aec;
 }
 
@@ -1007,12 +1022,14 @@ span.accor-open {
     height: 60px;
 }
 
-.contact-footer{
+.contact-footer {
     color: darkgrey;
 }
-.contact-footer:hover{
+
+.contact-footer:hover {
     color: #4a7aec;
 }
+
 
 /* --------------------
 :: 13.0 Breadcumb CSS
@@ -1045,6 +1062,7 @@ span.accor-open {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 
 /* -----------------------
 :: 14.0 About Us CSS
@@ -1079,7 +1097,7 @@ span.accor-open {
     color: #fff;
 }
 
-.few-words-text > p {
+.few-words-text>p {
     margin-bottom: 0;
 }
 
@@ -1106,6 +1124,7 @@ span.accor-open {
     font-weight: 700;
 }
 
+
 /* -------------------------
 :: 15.0 Services Area CSS
 ------------------------- */
@@ -1125,6 +1144,7 @@ span.accor-open {
     line-height: 2;
     margin-bottom: 50px;
 }
+
 
 /* -------------------------
 :: 16.0 Team Member Area
@@ -1157,7 +1177,7 @@ span.accor-open {
     transition-duration: 500ms;
 }
 
-.team-thumbnail > img {
+.team-thumbnail>img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -1184,11 +1204,11 @@ span.accor-open {
     transition-duration: 500ms;
 }
 
-.team-social-info {
+.-info {
     margin-top: 30px;
 }
 
-.team-social-info > a {
+.-info>a {
     font-size: 13px;
     color: #abadbe;
     display: inline-block;
@@ -1196,7 +1216,7 @@ span.accor-open {
 }
 
 .single-team-slide:hover .team-meta-info span,
-.team-social-info > a:hover {
+.-info>a:hover {
     color: #4a7aec;
 }
 
@@ -1253,7 +1273,7 @@ span.accor-open {
     z-index: 1;
 }
 
-.subscribe-newsletter-content form > input {
+.subscribe-newsletter-content form>input {
     width: 60%;
     height: 55px;
     border-radius: 70px;
@@ -1264,7 +1284,7 @@ span.accor-open {
     color: #abadbe;
 }
 
-.subscribe-newsletter-content form > button {
+.subscribe-newsletter-content form>button {
     width: 150px;
     height: 55px;
     border-radius: 0 70px 70px 0;
@@ -1283,10 +1303,11 @@ span.accor-open {
     transition-duration: 500ms;
 }
 
-.subscribe-newsletter-content form > button:hover {
+.subscribe-newsletter-content form>button:hover {
     color: #fff;
     background-color: rgb(16, 54, 145);
 }
+
 
 /* -------------------------
 :: 17.0 Clients Area
@@ -1326,14 +1347,14 @@ span.accor-open {
     margin-top: 40px;
 }
 
-.testimonials-meta > h6 {
+.testimonials-meta>h6 {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 5px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
 }
 
-.testimonials-meta > p {
+.testimonials-meta>p {
     margin-bottom: 0;
     font-weight: 700;
     letter-spacing: 2px;
@@ -1400,14 +1421,15 @@ span.accor-open {
     display: block;
 }
 
-.single-testimonial-area:hover .testimonials-meta > h6,
-.testimonials-slides .center .single-testimonial-area .testimonials-meta > h6 {
+.single-testimonial-area:hover .testimonials-meta>h6,
+.testimonials-slides .center .single-testimonial-area .testimonials-meta>h6 {
     color: #fff;
 }
 
 .single-testimonial-area:hover .testimonials-meta .testimonial-thumb {
     border: 3px solid #4a7aec;
 }
+
 
 /* Sonar CSS */
 
@@ -1448,7 +1470,6 @@ span.accor-open {
     }
 }
 
-
 @keyframes sonar-effect {
     0% {
         opacity: 0;
@@ -1480,13 +1501,14 @@ span.accor-open {
     color: #fff;
 }
 
-.skills-text > p {
+.skills-text>p {
     padding-right: 30px;
 }
 
-.skills-text > p:last-child {
+.skills-text>p:last-child {
     padding-right: 0;
 }
+
 
 /* -----------------------
 :: 18.0 Blog Area CSS
@@ -1531,7 +1553,7 @@ span.accor-open {
     color: #4a7aec;
 }
 
-.single-blog > a {
+.single-blog>a {
     color: #6270ff;
     font-size: 14px;
     text-transform: uppercase;
@@ -1564,7 +1586,7 @@ span.accor-open {
     z-index: 1;
 }
 
-.blog-post-search-widget form > input {
+.blog-post-search-widget form>input {
     width: 100%;
     height: 50px;
     border-top: none;
@@ -1574,7 +1596,7 @@ span.accor-open {
     border-bottom: 2px solid #e6e7f4;
 }
 
-.blog-post-search-widget form > button {
+.blog-post-search-widget form>button {
     position: absolute;
     right: 0;
     top: 0;
@@ -1587,16 +1609,16 @@ span.accor-open {
     cursor: pointer
 }
 
-.blog-post-archives > h5,
-.blog-post-categories > h5,
-.latest-blog-posts > h5,
-.instagram-feeds > h5 {
+.blog-post-archives>h5,
+.blog-post-categories>h5,
+.latest-blog-posts>h5,
+.instagram-feeds>h5 {
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.blog-post-archives ul > li > a,
-.blog-post-categories ul > li > a {
+.blog-post-archives ul>li>a,
+.blog-post-categories ul>li>a {
     color: #abadbe;
     font-size: 15px;
     display: block;
@@ -1604,13 +1626,13 @@ span.accor-open {
     font-weight: 500;
 }
 
-.latest-blog-post-content h6 > a {
+.latest-blog-post-content h6>a {
     color: #404551;
 }
 
-.latest-blog-post-content h6 > a:hover,
-.blog-post-archives ul > li > a:hover,
-.blog-post-categories ul > li > a:hover {
+.latest-blog-post-content h6>a:hover,
+.blog-post-archives ul>li>a:hover,
+.blog-post-categories ul>li>a:hover {
     color: #4a7aec;
 }
 
@@ -1626,12 +1648,13 @@ span.accor-open {
     margin-right: 20px;
 }
 
-.instagram-feeds ul > li {
+.instagram-feeds ul>li {
     width: calc(33.3333333% - 8px);
     margin: 4px;
     display: inline-block;
     float: left;
 }
+
 
 /* ----------------------
 :: 19.0 Contact Page CSS
@@ -1668,13 +1691,13 @@ span.accor-open {
     height: 140px;
 }
 
-.contact-social-info > a {
+.contact-social-info>a {
     color: #cbcddc;
     padding: 0 10px;
     display: inline-block;
 }
 
-.contact-social-info > a:hover {
+.contact-social-info>a:hover {
     color: #4a7aec;
 }
 
@@ -1682,6 +1705,7 @@ span.accor-open {
     width: 100%;
     height: 680px;
 }
+
 
 /* -----------------------
 :: 20.0 Elements Area CSS
@@ -1722,14 +1746,14 @@ span.accor-open {
     width: 100%;
 }
 
-.mosh-cool-facts-area .counter-area > h3 {
+.mosh-cool-facts-area .counter-area>h3 {
     color: #4a7aec;
     font-size: 60px;
     margin-bottom: 0;
     line-height: 1;
 }
 
-.mosh-cool-facts-area .cool-facts-content > p {
+.mosh-cool-facts-area .cool-facts-content>p {
     color: #292d4f;
 }
 
@@ -1738,7 +1762,6 @@ span.accor-open {
     border: 2px solid #4a7aec;
     padding: 5px;
     width: 170px;
-
     display: none;
     font-size: 10px;
     margin-top: 0px;
@@ -1756,7 +1779,6 @@ span.accor-open {
     border: 2px solid #4a7aec;
     padding: 5px;
     width: 170px;
-
     display: none;
     font-size: 10px;
     margin-top: 0px;
@@ -1774,7 +1796,6 @@ span.accor-open {
     border: 2px solid #4a7aec;
     padding: 5px;
     width: 160px;
-
     display: none;
     font-size: 10px;
     margin-top: 0px;
@@ -1787,89 +1808,152 @@ span.accor-open {
     display: block;
 }
 
-.resource-click{
+.resource-click {
     color: black;
 }
-.resource-click:hover{
+
+.resource-click:hover {
     color: #4a7aec;
 }
-.resource-suggestion{
+
+.resource-suggestion {
     position: relative;
     bottom: 40px;
     text-align: center;
 }
+
+
 /*=========Dashboard CSS=========*/
-.dashboard-spacing{
+
+.dashboard-spacing {
     height: 30px;
     width: 100%;
     opacity: 0%;
 }
 
-.dashboard-content{
-        color: darkgray;
+.dashboard-content {
+    color: darkgray;
 }
 
-.dashboard-content:hover{
+.dashboard-content:hover {
     color: #007bff;
 }
-.dashboard-module{
-        border-radius: 10px;
-        position: relative;
-        overflow: auto !important;
-        border: 3px solid #007bff;
-        padding: 25px; 
-        margin: auto;
-        margin-top: 25px;
-        margin-bottom: 20px;
-        background-image: linear-gradient(#f0edff,#ffffff);
-        width: 90%;
+
+.dashboard-module {
+    border-radius: 10px;
+    position: relative;
+    overflow: auto !important;
+    border: 3px solid #007bff;
+    padding: 25px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(#f0edff, #ffffff);
+    width: 90%;
 }
+
 .dashboard-module-wrapper {
     columns: 2;
 }
-.dashboard-module > .dashboard-module-wrapper > a {
+
+.dashboard-module>.dashboard-module-wrapper>a {
     line-height: 2;
 }
 
-.dashboard-module > a {
+.dashboard-module>a {
     display: block;
     line-height: 1;
 }
-.dashboard-module-wrapper > a:hover {
+
+.dashboard-module-wrapper>a:hover {
     color: #007bff !important;
 }
 
-        
-.dashboard-unit-list{
-        border-radius: 10px;
-        overflow: auto !important;
-        border: 3px solid #007bff;
-        padding: 25px; 
-        margin: auto;
-        width: 15%;
-        background-image: linear-gradient(#f0edff,#ffffff);
-        float: left;
-        position: relative;
-        top: 25px;
-        left: 30px;
+.dashboard-unit-list {
+    border-radius: 10px;
+    overflow: auto !important;
+    border: 3px solid #007bff;
+    padding: 25px;
+    margin: auto;
+    width: 15%;
+    background-image: linear-gradient(#f0edff, #ffffff);
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 30px;
 }
 
-.dashboard-image-space{
+.dashboard-image-space {
     margin-right: 30px;
 }
 
-.dashboard-image-position{
+.dashboard-image-position {
     border: 3px solid black;
     position: relative !important;
     left: 10% !important;
     margin-bottom: 20px;
-
 }
 
-.dashboard-image-position2{
-    position:  relative !important;
+.dashboard-image-position2 {
+    position: relative !important;
     top: -0% !important;
 }
+
+.about-us-picture {
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid black;
+    float: left !important;
+    width: 200px;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.about-us-quote-box {
+    background-color: transparent;
+    padding: 20px;
+    overflow: auto !important;
+    height: 200px !important;
+    position: absolute;
+    float: right;
+    margin-top: 2%;
+    margin-left: 250px;
+    margin-right: 2%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66, 66, 66);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.9;
+    margin-bottom: 2%;
+}
+
+.line {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: -10%;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-style: inset;
+    border-width: 1px;
+    border: 2px solid #25499F;
+    border-radius: 2px;
+}
+
+.line2 {
+    clear: both;
+    display: block;
+    border-width: 1px;
+    border: 2px solid #25499F;
+    border-radius: 2px;
+    margin-top: 0.5em;
+    margin-bottom: -10%;
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+}
+
+
 /* --------------------------------
 ============= The End =============
 ---------------------------------*/
