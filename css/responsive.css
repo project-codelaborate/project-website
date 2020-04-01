@@ -120,7 +120,7 @@
       top: 10vh;
     }
     .navbar {
-      flex-wrap: nowrap
+      flex-wrap: nowrap;
     }
     .navbar-brand > img {
       width: 65% !important;
