@@ -26,7 +26,8 @@
 </head>
 
 <style>
-    body, html {
+    body,
+    html {
         height: 100vh;
         margin: 0;
     }
@@ -67,60 +68,67 @@
         width: 40%;
     }
 </style>
+
 <body>
 
-<div class="bgimg">
-    <div class="topleft">
-        <a href="index.html"> <img src="img/core-img/logo.png" alt=""></a>
-    </div>
-    <div class="middle">
-        <span style="font-family:Courier New, Courier, monospace; font-size: 50px;"> COMING SOON</span></h1>
-        <h2>
-            <span style="font-family:Courier New, Courier, monospace; font-size: 50px; color: white; position: relative; bottom: 50px;">______________</span></h2>
-        <h2>
-            <p id="demo" style="font-family:Courier New, Courier, monospace; font-size: 30px; color: white; position: relative; bottom: 50px"></p>
-    </div>
-    <div class="bottomleft">
-        <div class="mosh-buttons-area">
-            <a href="#" class="btn mosh-btn mosh-btn-2" onclick="goBack()"><span style="font-size: 20px;">Return</span></a>
+    <div class="bgimg">
+        <div class="topleft">
+            <a href="index.html"> <img src="img/core-img/logo.png" alt=""></a>
+        </div>
+        <div class="middle">
+            <span style="font-family:Courier New, Courier, monospace; font-size: 50px;"> COMING SOON</span></h1>
+            <h2>
+                <span
+                    style="font-family:Courier New, Courier, monospace; font-size: 50px; color: white; position: relative; bottom: 50px;">______________</span>
+            </h2>
+            <h2>
+                <p id="demo"
+                    style="font-family:Courier New, Courier, monospace; font-size: 30px; color: white; position: relative; bottom: 50px">
+                </p>
+        </div>
+        <div class="bottomleft">
+            <div class="mosh-buttons-area">
+                <a href="#" class="btn mosh-btn mosh-btn-2" onclick="goBack()"><span
+                        style="font-size: 20px;">Return</span></a>
+            </div>
         </div>
     </div>
-</div>
 
-<script>
-    // Set the date we're counting down to
-    var countDownDate = new Date("Dec 1, 2020 0:0:1").getTime();
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Dec 1, 2020 0:0:1").getTime();
 
-    // Update the count down every 1 second
-    var countdownfunction = setInterval(function () {
+        // Update the count down every 1 second
+        var countdownfunction = setInterval(function () {
 
-        // Get todays date and time
-        var now = new Date().getTime();
+            // Get todays date and time
+            var now = new Date().getTime();
 
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
 
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
 
-        // If the count down is over, write some text
-        if (distance < 0) {
-            clearInterval(countdownfunction);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            // If the count down is over, write some text
+            if (distance < 0) {
+                clearInterval(countdownfunction);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+        function goBack() {
+            window.history.back();
         }
-    }, 1000);
-
-    function goBack() {
-        window.history.back();
-    }
-</script>
+    </script>
 
 </body>
+
 </html>
