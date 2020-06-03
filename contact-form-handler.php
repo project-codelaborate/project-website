@@ -14,7 +14,7 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from samratsahoo.com";
+    $subject = "You have a message from projectcodelaborate.org";
 
     $logo = 'img/logo.png';
     $link = '#';
@@ -33,6 +33,7 @@
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
-    $send = mail($to, $subject, $body, $headers);
+    mail($to, $subject, $body, $headers);
+    header("Location: contact.html");
 
 ?>
