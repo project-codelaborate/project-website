@@ -1023,6 +1023,9 @@ span.accor-open {
     width: 100%;
     position: relative;
     z-index: 1;
+    background-image: url(img/core-img/breadcumb.png); 
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .bradcumbContent h2 {
